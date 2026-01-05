@@ -38,3 +38,22 @@ patient demographics, and treatment costs.
 ---
 
 ## 📂 Project Structure
+patient-treatment-analysis/
+│
+├── data/
+│ ├── raw/
+│ │ └── patient_data_raw.csv
+│ ├── processed/
+│ │ └── patient_data_cleaned.csv
+│
+├── notebooks/
+│ └── patient_treatment_analysis.ipynb
+│
+├── powerbi/
+│ └── patient_treatment_dashboard.pbix
+│
+├── sql/
+│ └── patient_analysis_queries.sql
+│
+├── README.md
+└── .gitignore
